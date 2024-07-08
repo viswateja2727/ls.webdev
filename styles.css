@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    height: 60px;
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    div {
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+#navbar {
+    display: none;
+}
+img {
+    display: none;
+}
+iframe {
+    display: none;
+}
+@media (min-width:800px) {
+    #navbar {
+        display: block;
+        display: flex;
+    }
+    img {
+        display: block;
+        width:400px;
+        height: 300px;
+    }
+    iframe {
+        display: block;
+        width:400px;
+        height: 300px;
+    }
+    #overview {
+        padding: 20px 100px 20px 100px;
+    }   
+    #highlights {
+        padding: 20px 100px 20px 100px;
+    }
+    #start {
+        padding: 20px 100px 20px 100px;
+    }
+    #game {
+        padding: 20px 100px 20px 100px;
+    }
+}
+#overview {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif ;
+    margin: 10px 10px 10px 10px;
+}
+#rules {
+    li {
+        font-weight: 600;
+    }
+}
+#highlights {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+#memorable {
+    img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+    }
+    margin: 10px 10px 10px 10px;
+}
+#top {
+    margin: 10px 10px 10px 10px;
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+#tournaments {
+    li {
+        font-weight: 600;
+    }
+    margin: 10px 10px 10px 10px;
+}
+
+#start {
+    ol {
+        li {
+            font-weight: 600;
+        };
+    }
+    ul {
+        li {
+            font-weight: 400;
+        }
+    }
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif ;
+    margin: 10px 10px 10px 10px;
+    /* margin: 20px 100px 20px 100px; */
+}
+#game {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+}
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px; 
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+#footer {
+    height: 210px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    a {
+        text-decoration: none;
+    }
+}
